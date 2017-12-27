@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.test.a1cabs.NavigationalActivity"
+    tools:showIn="@layout/app_bar_navigational">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/intent"
+        android:paddingBottom="10dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="aboutus"
+
+        android:backgroundTint="#90CAF9"
+        android:layout_margin="10dp"
+        android:id="@+id/aboutus"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="contact"
+        android:layout_margin="10dp"
+        android:backgroundTint="#90CAF9"
+        android:id="@+id/contact"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="FollowUs"
+        android:backgroundTint="#1565C0"
+        android:layout_margin="10dp"
+        android:id="@+id/followus"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="linkedin"
+                android:backgroundTint="#90CAF9"
+                android:id="@+id/linkedin"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#90CAF9"
+                android:text="google"
+                android:id="@+id/google"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Twitter"
+                android:backgroundTint="#90CAF9"
+                android:id="@+id/twitter"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="facebook"
+                android:backgroundTint="#90CAF9"
+                android:id="@+id/facebook"/>
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
